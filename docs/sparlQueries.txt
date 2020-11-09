@@ -1,0 +1,146 @@
+prefix musicOntology: <http://purl.org/ontology/mo/>
+prefix schema: <http://schema.org/>
+prefix schemaExtensions: <http://schemaExtensions/>
+
+#total number of triples
+select (COUNT(?sub) as ?cnt)
+where {?sub ?prd ?obj}
+
+#List classes
+select distinct ?class
+where {?sub a ?class}
+
+#List counts of each class
+select ?class (COUNT(?sub) as ?cnt)
+where {?sub a ?class}
+GROUP BY ?class
+
+#List counts of each property type
+select ?prd (COUNT(?sub) as ?cnt)
+where {?sub ?prd ?obj}
+group by ?prd
+
+#see how many languages we really have
+select DISTINCT ?sub (COUNT(?sub) as ?cnt)
+where {?sub a schema:Language}
+group by ?sub
+
+#count of mediaObjects without page counts
+select DISTINCT (COUNT(?sub) as ?cnt)
+where {
+  ?sub a schema:MediaObject .
+  FILTER NOT EXISTS {?sub schemaExtensions:numberOfPages ?pgs}
+}
+
+#mediaObjects WITH page counts
+select DISTINCT (COUNT(?sub) as ?cnt)
+where {
+  ?sub a schema:MediaObject .
+  ?sub schemaExtensions:numberOfPages ?pgs .
+}
+
+#compositions that aren't listed anywhere as "includedComposition" (i.e. those that have their own work page)
+select DISTINCT (COUNT(?sub) as ?cnt)
+where {
+  ?sub a schema:MusicComposition .
+  FILTER NOT EXISTS {?otherComp schema:includedComposition ?sub}
+}
+
+#now find out why the results of the query above is less than expected...
+select ?sub
+where { ?sub a schema:MusicComposition .
+        ?sub schema:url ?sub
+        MINUS{?sub a schema:MusicComposition .
+  			  FILTER NOT EXISTS {?otherComp schema:includedComposition ?sub}
+        }                
+}
+
+#confirm that the results from the above are all due to self-reference with includedComposition
+select ?sub
+where { ?sub a schema:MusicComposition .
+       ?sub schema:url ?sub .
+       ?sub schema:includedComposition ?sub      
+}
+
+#check for redirects
+select DISTINCT (COUNT(?sub) as ?cnt)
+where {
+  ?sub schema:sameAs ?someOther .
+  
+}
+
+#MusicComposition objects with a given number of properties
+select ?sub (COUNT(?prop) as ?cnt)
+where {
+  ?sub a schema:MusicComposition .
+  ?sub schema:url ?sub .
+  ?sub ?prop ?obj .
+}
+GROUP BY ?sub
+HAVING(COUNT(?prop) < 15
+      )
+
+#get average number of properties for a work page (27.8658658 btw)
+select (AVG(?cnt) as ?avgPropCnt)
+where{
+  
+  select ?sub (COUNT(?prop) as ?cnt)
+  where {
+    ?sub a schema:MusicComposition .
+    ?sub schema:url ?sub .
+    ?sub ?prop ?obj .
+  }
+  GROUP BY ?sub
+}
+  
+#get total number of "Work page" MusicComposition with property count in a range
+select (COUNT(?cnt) as ?total)
+where {
+  select (COUNT(?prop) as ?cnt)
+  where {
+    ?sub a schema:MusicComposition .
+    ?sub schema:url ?sub .
+    ?sub ?prop ?obj .
+  }
+  GROUP BY ?sub
+  HAVING(COUNT(?prop) >= 5 && COUNT(?prop) < 10)
+}
+
+#list property names and counts for MusicCompositions with total property counts in a range 
+select ?prop (COUNT(*) as ?cnt)
+where {
+  ?sub ?prop ?obj
+  FILTER EXISTS{
+    select ?sub (COUNT(?prop) as ?cnt)
+    where {
+      ?sub a schema:MusicComposition .
+      ?sub schema:url ?sub .
+      ?sub ?prop ?obj .
+    }
+    GROUP BY ?sub
+    HAVING(COUNT(?prop) >= 20 && COUNT(?prop) < 25)
+  }
+}  
+GROUP BY ?prop
+
+#find MusicComposition with more than one nonblank name
+select ?sub (COUNT(?name) as ?nameCnt)
+where {
+  ?sub schema:url ?sub .
+  ?sub a schema:MusicComposition .
+  ?sub schema:name ?name
+  FILTER REGEX(str(?name),"[A-z]+")
+}
+group by ?sub
+having(COUNT(?name)>1)
+
+#find count of video results for each MusicComposition
+select ?sub (COUNT(?vid) as ?vidcnt)
+where {
+  ?sub schema:url ?sub .
+  ?sub a schema:MusicComposition .
+  ?vid schema:encodesCreativeWork ?sub .
+  ?vid a schema:VideoObject .
+} group by ?sub
+#add HAVING (COUNT(?vid) < 10) to find all the ones with less than 10 results
+

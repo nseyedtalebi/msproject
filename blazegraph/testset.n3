@@ -1,0 +1,384 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://schemaExtensions/> .
+@prefix ns3: <http://purl.org/ontology/mo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.youtube.com/watch?v=VXZpGPaj2nQ> a ns1:VideoObject ;
+    ns1:category "Music"^^ns1:Text ;
+    ns1:datePublished "2015-01-23T00:38:53.000Z"^^ns1:Date ;
+    ns1:description """Sanctus da Primeira Missa de Jacques-Louis Battmann, executado pela Orquestra Mater Dei sob a regência de Maria da Penha Sousa na Santa Missa de Segunda Feira Santa.
+Semana Santa de 2013, Resende Costa MG."""^^ns1:Text ;
+    ns1:duration "PT3M14S"^^ns1:Duration ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/VXZpGPaj2nQ/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Music> .
+
+<http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Agnus%20Dei> a ns1:MusicComposition ;
+    ns1:name "Agnus Dei"^^ns1:Text .
+
+<http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Credo> a ns1:MusicComposition ;
+    ns1:name "Credo"^^ns1:Text .
+
+<http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Gloria> a ns1:MusicComposition ;
+    ns1:name "Gloria"^^ns1:Text .
+
+<http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Kyrie> a ns1:MusicComposition ;
+    ns1:name "Kyrie"^^ns1:Text .
+
+<http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Sanctus> a ns1:MusicComposition ;
+    ns1:name "Sanctus"^^ns1:Text .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454493> a ns1:MediaObject ;
+    ns1:contentSize "1.47MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454493> ;
+    ns1:editor <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:name " Complete Score"^^ns1:Text ;
+    ns2:numberOfPages "24 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454494> a ns1:MediaObject ;
+    ns1:contentSize "2.47MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454494> ;
+    ns1:duration "PT2M42S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 1. Kyrie"^^ns1:Text ;
+    ns1:uploadDate "2017-01-06"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454495> a ns1:MediaObject ;
+    ns1:contentSize "3.17MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454495> ;
+    ns1:duration "PT3M28S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 2. Gloria"^^ns1:Text ;
+    ns1:uploadDate "2017-01-06"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454496> a ns1:MediaObject ;
+    ns1:contentSize "6.64MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454496> ;
+    ns1:duration "PT7M15S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 3. Credo"^^ns1:Text ;
+    ns1:uploadDate "2017-01-06"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454497> a ns1:MediaObject ;
+    ns1:contentSize "2.46MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454497> ;
+    ns1:duration "PT2M41S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 4. Sanctus"^^ns1:Text ;
+    ns1:uploadDate "2017-01-06"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454498> a ns1:MediaObject ;
+    ns1:contentSize "1.52MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454498> ;
+    ns1:duration "PT1M40S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 5. Agnus Dei"^^ns1:Text ;
+    ns1:uploadDate "2017-01-06"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454657> a ns1:MediaObject ;
+    ns1:contentSize "3.62MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454657> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Complete Score"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "61 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454658> a ns1:MediaObject ;
+    ns1:contentSize "0.47MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454658> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Soprano"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "8 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454659> a ns1:MediaObject ;
+    ns1:contentSize "0.49MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454659> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Alto"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "8 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454660> a ns1:MediaObject ;
+    ns1:contentSize "0.42MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454660> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Flute"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "7 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454661> a ns1:MediaObject ;
+    ns1:contentSize "0.38MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454661> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Clarinet (B♭)"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "7 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454662> a ns1:MediaObject ;
+    ns1:contentSize "0.27MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454662> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Trumpet (B♭)"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "5 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454663> a ns1:MediaObject ;
+    ns1:contentSize "0.23MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454663> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Horn 1 (F)"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "5 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454664> a ns1:MediaObject ;
+    ns1:contentSize "0.23MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454664> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Horn 2 (F)"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "5 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454665> a ns1:MediaObject ;
+    ns1:contentSize "0.24MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454665> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Trombone"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "5 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454666> a ns1:MediaObject ;
+    ns1:contentSize "0.40MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454666> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Violins I"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "7 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454667> a ns1:MediaObject ;
+    ns1:contentSize "0.38MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454667> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Violins II"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "7 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454668> a ns1:MediaObject ;
+    ns1:contentSize "0.33MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454668> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Violas"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "7 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454669> a ns1:MediaObject ;
+    ns1:contentSize "0.29MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454669> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Cellos/Basses"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "7 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454670> a ns1:MediaObject ;
+    ns1:contentSize "0.73MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454670> ;
+    ns1:creator <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Creative_Commons_Attribution_4.0> ;
+    ns1:musicArrangement <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:name " Organ"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date ;
+    ns2:numberOfPages "12 pp."^^ns1:Number ;
+    ns2:publicationInfo "Rafael Sales Arantes"^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:Rafoio> .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454678> a ns1:MediaObject ;
+    ns1:contentSize "2.74MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454678> ;
+    ns1:duration "PT3M00S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 1. Kyrie"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454679> a ns1:MediaObject ;
+    ns1:contentSize "3.19MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454679> ;
+    ns1:duration "PT3M29S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 2. Gloria"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454680> a ns1:MediaObject ;
+    ns1:contentSize "6.72MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454680> ;
+    ns1:duration "PT7M20S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 3. Credo"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454681> a ns1:MediaObject ;
+    ns1:contentSize "2.46MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454681> ;
+    ns1:duration "PT2M41S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 4. Sanctus"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/454682> a ns1:MediaObject ;
+    ns1:contentSize "1.57MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/454682> ;
+    ns1:duration "PT1M43S"^^ns1:Duration ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> ;
+    ns1:encodingFormat "MP3 file"^^ns1:Text ;
+    ns1:name " 5. Agnus Dei"^^ns1:Text ;
+    ns1:uploadDate "2017-01-07"^^ns1:Date .
+
+"Mass ordinary"^^ns1:Text a ns1:Person .
+
+<http://imslp.org/wiki/:Category:Battmann%2C_Jacques-Louis> a ns1:Person .
+
+<http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales> a ns1:Person .
+
+<http://imslp.org/wiki/:User:Rafoio> a ns1:Person .
+
+<http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29> a ns1:MusicComposition ;
+    ns3:opus """Op.335
+"""^^rdfs:Literal ;
+    ns1:alternateName """Mass for 2 equal voices with organ or piano ; Petite Messe solennelle facile et chantante (C) à 2 Voix égales av. Piano ou Orgue
+"""^^ns1:Text ;
+    ns1:category <http://imslp.org/wiki/:Category:Ancient_Greek_language>,
+        <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales/Arranger>,
+        <http://imslp.org/wiki/:Category:Arantes%2C_Rafael_Sales/Editor>,
+        <http://imslp.org/wiki/:Category:Battmann%2C_Jacques-Louis>,
+        <http://imslp.org/wiki/:Category:C_major>,
+        <http://imslp.org/wiki/:Category:For_2_equal_voices%2C_organ>,
+        <http://imslp.org/wiki/:Category:For_2_equal_voices%2C_piano>,
+        <http://imslp.org/wiki/:Category:For_2_voices%2C_organ>,
+        <http://imslp.org/wiki/:Category:For_2_voices%2C_piano>,
+        <http://imslp.org/wiki/:Category:For_chorus_with_orchestra>,
+        <http://imslp.org/wiki/:Category:For_female_chorus%2C_orchestra_%28arr%29>,
+        <http://imslp.org/wiki/:Category:For_voices_with_keyboard>,
+        <http://imslp.org/wiki/:Category:Greek_language>,
+        <http://imslp.org/wiki/:Category:Latin_language>,
+        <http://imslp.org/wiki/:Category:Masses>,
+        <http://imslp.org/wiki/:Category:Pages_with_arrangements>,
+        <http://imslp.org/wiki/:Category:Religious_works>,
+        <http://imslp.org/wiki/:Category:Romantic>,
+        <http://imslp.org/wiki/:Category:Romantic_style>,
+        <http://imslp.org/wiki/:Category:Scores>,
+        <http://imslp.org/wiki/:Category:Scores_featuring_female_chorus>,
+        <http://imslp.org/wiki/:Category:Scores_featuring_the_orchestra>,
+        <http://imslp.org/wiki/:Category:Scores_featuring_the_organ>,
+        <http://imslp.org/wiki/:Category:Scores_featuring_the_piano>,
+        <http://imslp.org/wiki/:Category:Scores_featuring_the_voice> ;
+    ns1:composer <http://imslp.org/wiki/:Category:Battmann%2C_Jacques-Louis> ;
+    ns1:genre <http://imslp.org/wiki/:Category:Romantic_style> ;
+    ns1:inLanguage "Latin, Ancient Greek (Kyrie)"^^ns1:Text ;
+    ns1:includedComposition <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Agnus%20Dei>,
+        <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Credo>,
+        <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Gloria>,
+        <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Kyrie>,
+        <http://imslp.org/wiki/Missa_in_C_major%2C_Op.335_%28Battmann%2C_Jacques-Louis%29#Sanctus> ;
+    ns1:musicalKey <http://imslp.org/wiki/:Category:C_major> ;
+    ns1:name """Missa in C Major
+"""^^ns1:Text ;
+    ns2:writtenForInstruments "2 voices (same), organ or piano"^^ns1:Text ;
+    ns2:youtubeAPIRequestURL <https://www.googleapis.com/youtube/v3/search?q=Missa+in+C+major%2C+Op.335+%28Battmann%2C+Jacques-Louis%29&part=id%2Csnippet&maxResults=10&key=AIzaSyBgs-Wx1YKxMDTst6V03pCbvWlzPgxmIG8&alt=json> ;
+    ns2:youtubeSearchURL <https://www.youtube.com/results?search_query=Missa+in+C+major%2C+Op.335+%28Battmann%2C+Jacques-Louis%29> ;
+    <http://vocab.getty.edu/aat/300025674> "Mass ordinary"^^ns1:Text .
+

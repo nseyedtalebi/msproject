@@ -1,0 +1,5 @@
+search vids: 100
+get vid info:7 per (70 per file if there are 10 results)
+list video categories:3
+
+Total cost:173/file

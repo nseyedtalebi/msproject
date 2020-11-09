@@ -1,0 +1,19 @@
+        heading_path = ['Sheet music']
+        for ui_tab in span_wpscore.contents.ifilter_tags(matches=lambda node:imrdf.check_tag_class(node,'div',['jq-ui-tabs'])):
+            #print(ui_tab.contents.get_tree())
+            for sec_and_div_we in ui_tab.contents.ifilter(forcetype=(mwp.wikicode.Tag,mwp.wikicode.Heading),matches=matches_heading_or_div_we):
+                if type(sec_and_div_we) == mwp.wikicode.Heading:
+                    if sec_and_div_we.level == 4:
+                        heading_path = ['Sheet music',sec_and_div_we.title]
+                    if sec_and_div_we.level >4:
+                        heading_path.append(str(sec_and_div_we.title))
+                elif type(sec_and_div_we) == mwp.wikicode.Tag:
+                    print(heading_path)
+                    None
+                    if len(heading_path) > 1:
+                        heading_path.pop()
+                else:
+                    if len(heading_path) > 1:
+                        heading_path.pop()
+                    #print("**********".join(heading_path))
+                    #print(sec_and_div_we.attributes)

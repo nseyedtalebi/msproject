@@ -1,0 +1,346 @@
+@prefix ns1: <https://schema.org/> .
+@prefix ns2: <https://schemaExtensions/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.youtube.com/watch?v=4TY1nOxjVmY> ns1:datePublished "2011-10-06"^^xsd:date ;
+    ns1:description """Ludwig van Beethoven  (1770 - 1827)\r
+Symphony No.9 In D Minor Op.125 "Choral" II.Molto Vivace"""^^xsd:string ;
+    ns1:duration "PT9M51S"^^xsd:duration ;
+    ns1:keywords "Beethoven"^^xsd:string,
+        "Ludwig"^^xsd:string,
+        "No.9"^^xsd:string,
+        "Sinfonie"^^xsd:string,
+        "Symfonia"^^xsd:string,
+        "Symphonie"^^xsd:string,
+        "Symphony"^^xsd:string,
+        "Van"^^xsd:string,
+        "classical"^^xsd:string,
+        "hd"^^xsd:string,
+        "klasyczna"^^xsd:string,
+        "malarstwo"^^xsd:string,
+        "music"^^xsd:string,
+        "muzyka"^^xsd:string,
+        "nr.9"^^xsd:string,
+        "orchestra"^^xsd:string,
+        "orkiestra"^^xsd:string,
+        "paintings"^^xsd:string,
+        "photo"^^xsd:string,
+        "photograph"^^xsd:string,
+        "photography"^^xsd:string,
+        "picture"^^xsd:string,
+        "view"^^xsd:string,
+        "Бетховен"^^xsd:string,
+        "Людвиг"^^xsd:string,
+        "ван"^^xsd:string,
+        "живопись"^^xsd:string,
+        "симфония"^^xsd:string,
+        "シンフォニー"^^xsd:string,
+        "ルートヴィヒヴァンベートーベン"^^xsd:string,
+        "絵画"^^xsd:string ;
+    ns1:name "Ludwig van Beethoven  Symphony No.9 In D Minor Op.125 \"Choral\" II.Molto Vivace"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/4TY1nOxjVmY/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=7-a1d0VY6NA> ns1:datePublished "2012-03-10"^^xsd:date ;
+    ns1:description "Ludwig van Beethoven - Symphony No. 9 in D minor, op. 125"^^xsd:string ;
+    ns1:duration "PT1H12M33S"^^xsd:duration ;
+    ns1:keywords "Ludwig van Beethoven"^^xsd:string,
+        "Symphony No. 9 in D minor"^^xsd:string,
+        "op. 125"^^xsd:string ;
+    ns1:name "Ludwig van Beethoven - Symphony No. 9 in D minor, op. 125"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/7-a1d0VY6NA/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=8OPamWwNDOI> ns1:datePublished "2011-10-20"^^xsd:date ;
+    ns1:description """Subscribe now and never miss a video: http://www.youtube.com/user/ClassicalExperience?sub_confirmation=1
+Find the most beautiful pages of classical music on ClassicalExperience. Thousands of classical videos; Classical masterpieces remastered; Interviews & documentaries; All of the greats revisited by new artists on the rise.
+
+Ludwig van Beethoven : Symphony No. 9 in D Minor, Op. 125: Molto vivace - Presto
+Intrepreted by  Eugen Jochum and Symphonieorchester des Bayerischen Rundfunks"""^^xsd:string ;
+    ns1:duration "PT10M55S"^^xsd:duration ;
+    ns1:keywords "Allegro"^^xsd:string,
+        "Beethoven"^^xsd:string,
+        "Classical"^^xsd:string,
+        "Classical Music"^^xsd:string,
+        "Concerto"^^xsd:string,
+        "Ludwig"^^xsd:string,
+        "Ludwig Van Beethoven"^^xsd:string,
+        "Ludwig van Beethoven"^^xsd:string,
+        "Minor"^^xsd:string,
+        "Movement"^^xsd:string,
+        "Opera"^^xsd:string,
+        "Orchestra"^^xsd:string,
+        "Piano"^^xsd:string,
+        "Plays"^^xsd:string,
+        "Prelude"^^xsd:string,
+        "Symphony No. 9 (Beethoven)"^^xsd:string,
+        "Violin"^^xsd:string,
+        "van"^^xsd:string ;
+    ns1:name "Beethoven : Symphony No. 9 in D Minor, Op. 125: Molto vivace - Presto"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/8OPamWwNDOI/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=EsqhYCHYzYA> ns1:datePublished "2014-04-23"^^xsd:date ;
+    ns1:description """Faces of Classical Music
+http://facesofclassicalmusic.blogspot.com
+•
+
+More information:
+http://facesofclassicalmusic.blogspot.gr/2017/06/ludwig-van-beethoven-symphony-no9-in-d.html
+
+CHRISTIAN THIELEMANN CONDUCTS LUDWIG VAN BEETHOVEN
+
+Ludwig van Beethoven (1770-1827)
+
+♪ Symphony No.9 in D minor, Op.125 "Choral" (1822-1824)
+
+i. Allegro ma non troppo
+ii. Molto vivace
+iii. Adagio molto e cantabile
+iv. Presto – Allegro assai
+v. Recitative – Allegro assai
+
+Annette Dasch, soprano
+Mihoko Fujimura, mezzo-soprano
+Piotr Beczala, tenor
+Georg Zeppenfeld, bass
+
+Wiener Singverein
+
+Wiener Philharmoniker
+Conductor: Christian Thielemann
+
+Wiener Musikverein, April 2010
+
+(HD 1080p)
+
+Uploaded on Youtube for the Blog "Faces of Classical Music"
+
+More information:
+http://facesofclassicalmusic.blogspot.gr/2017/06/ludwig-van-beethoven-symphony-no9-in-d.html
+
+•
+Faces of Classical Music
+http://facesofclassicalmusic.blogspot.com"""^^xsd:string ;
+    ns1:duration "PT1H13M15S"^^xsd:duration ;
+    ns1:keywords "1080p"^^xsd:string,
+        "Annette Dasch"^^xsd:string,
+        "Christian Thielemann"^^xsd:string,
+        "Georg Zeppenfeld"^^xsd:string,
+        "Ludwig van Beethoven"^^xsd:string,
+        "Mihoko Fujimura"^^xsd:string,
+        "Piotr Beczala"^^xsd:string,
+        "Symphony No.9 in D minor"^^xsd:string,
+        "Wiener Musikverein"^^xsd:string,
+        "Wiener Philharmoniker"^^xsd:string,
+        "Wiener Singverein"^^xsd:string ;
+    ns1:name "Beethoven: Symphony No.9 in D minor - Wiener Philharmoniker, Christian Thielemann (HD 1080p)"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/EsqhYCHYzYA/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "People & Blogs"^^xsd:string .
+
+<https://www.youtube.com/watch?v=YkjK4_LQckI> ns1:datePublished "2014-04-24"^^xsd:date ;
+    ns1:description """14 dicembre 2003 - 14 dicembre 2013
+Decennale Fenice
+
+concerto straordinario
+
+Ludwig van Beethoven
+Sinfonia n.9 in re minore per soli, coro e orchestra, op. 125
+
+soprano - Ekaterina Metlova
+tenore - Jonathan Burton
+mezzosoprano - Kate Allen
+basso - Luca Tittoto
+
+Orchestra e Coro del Teatro La Fenice
+maestro del Coro Claudio Marino Moretti
+
+Direttore
+Lorin Maazel"""^^xsd:string ;
+    ns1:duration "PT1H44M"^^xsd:duration ;
+    ns1:keywords "14 dicembre 2013"^^xsd:string,
+        "9th symphony"^^xsd:string,
+        "Beethoven (Film)"^^xsd:string,
+        "Classical"^^xsd:string,
+        "Claudio Marino Moretti"^^xsd:string,
+        "Concerto"^^xsd:string,
+        "Decennale Fenice"^^xsd:string,
+        "Ekaterina Metlova"^^xsd:string,
+        "Jonathan Burton"^^xsd:string,
+        "Kate Allen"^^xsd:string,
+        "Lorin Maazel"^^xsd:string,
+        "Luca Tittoto"^^xsd:string,
+        "Ludwig Van Beethoven (Author)"^^xsd:string,
+        "Orchestra"^^xsd:string,
+        "Symphony"^^xsd:string,
+        "Symphony No.9 (Composition)"^^xsd:string,
+        "anni"^^xsd:string,
+        "beethoven"^^xsd:string,
+        "choral"^^xsd:string,
+        "decennale"^^xsd:string,
+        "dieci"^^xsd:string,
+        "fenice"^^xsd:string,
+        "lorin"^^xsd:string,
+        "ludwig"^^xsd:string,
+        "maazel"^^xsd:string,
+        "orchestra"^^xsd:string,
+        "sinfonia9"^^xsd:string,
+        "symphony"^^xsd:string ;
+    ns1:name "Ludwig van Beethoven, Symphony No 9, Op. 125 (Lorin Maazel)"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/YkjK4_LQckI/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=_y2JeZj5zm0> ns1:datePublished "2016-09-08"^^xsd:date ;
+    ns1:description """Symphony No.9 In D Minor, Op.125 - "Choral"
+1. Allegro ma non troppo, un poco maestoso
+2. Molto vivace
+3. Adagio molto e cantabile
+4. Presto - Allegro assai
+4. Presto - "O Freunde nicht diese Töne"
+Karita Mattila, Violeta Urmana, Thomas Moser, Thomas Quasthoff, Berliner Philharmoniker, Claudio Abbado, Eric Ericson Chamber Choir, Swedish Radio Choir
+Claudio Abbado, Conductor
+Berliner Philharmoniker, Orchestra
+Recording date: May 2000
+Live / Studio: Live
+Recording Location:
+Grosser Saal, Berlin Philharmonie, Germany"""^^xsd:string ;
+    ns1:duration "PT1H2M19S"^^xsd:duration ;
+    ns1:name "Ludwig van Beethoven  - Symphony No.9 In D Minor, Op.125"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/_y2JeZj5zm0/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "People & Blogs"^^xsd:string .
+
+<https://www.youtube.com/watch?v=bM2X7mZmd7E> ns1:datePublished "2013-11-03"^^xsd:date ;
+    ns1:description """Ludwig van Beethoven
+Symphony No 9 in D minor, Op 125 "Choral"
+
+1 Allegro ma non troppo, un poco maestoso
+2 Scherzo. Molto vivace - Presto
+3 Adagio molto e cantabile - Andante Moderato
+4 Presto. Allegro molto assai (Alla marcia)
+
+Ailish Tynan, soprano
+Jennifer Johnston, mezzo-soprano
+Toby Spence, tenor
+Gerald Finley, baritone
+
+Irish Youth Chamber Choir
+National Youth Choir of Great Britain
+National Youth Orchestra of Great Britain
+Vasily Petrenko, conductor
+
+Live recording. London, Proms 2013"""^^xsd:string ;
+    ns1:duration "PT1H2M16S"^^xsd:duration ;
+    ns1:keywords "125"^^xsd:string,
+        "2013"^^xsd:string,
+        "38"^^xsd:string,
+        "beethoven"^^xsd:string,
+        "britain"^^xsd:string,
+        "choir"^^xsd:string,
+        "choral"^^xsd:string,
+        "d minor"^^xsd:string,
+        "great"^^xsd:string,
+        "london"^^xsd:string,
+        "ludwig"^^xsd:string,
+        "national"^^xsd:string,
+        "orchestra"^^xsd:string,
+        "petrenko"^^xsd:string,
+        "proms"^^xsd:string,
+        "sinfonia"^^xsd:string,
+        "sinfonie"^^xsd:string,
+        "symphonie"^^xsd:string,
+        "symphony"^^xsd:string,
+        "symphony 9"^^xsd:string,
+        "van"^^xsd:string,
+        "vasily"^^xsd:string,
+        "youth"^^xsd:string ;
+    ns1:name "Beethoven - Symphony No 9 in D minor, Op 125 - Petrenko"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/bM2X7mZmd7E/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=jeO4RF7eXBc> ns1:datePublished "2010-12-04"^^xsd:date ;
+    ns1:description "Beethoven: Symphony 9 d-moll Op. 125"^^xsd:string ;
+    ns1:duration "PT11M39S"^^xsd:duration ;
+    ns1:keywords "Beethoven:"^^xsd:string,
+        "Clockwork"^^xsd:string,
+        "Orange"^^xsd:string,
+        "Symphony"^^xsd:string,
+        "bulgarian music"^^xsd:string,
+        "flute"^^xsd:string,
+        "movie"^^xsd:string,
+        "new wave"^^xsd:string,
+        "russia"^^xsd:string,
+        "waltz"^^xsd:string ;
+    ns1:name "Beethoven: Symphony 9, Op. 125 (Clockwork Orange)"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/jeO4RF7eXBc/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=sd1Nuu34-3o> ns1:datePublished "2010-05-06"^^xsd:date ;
+    ns1:description """Recorded on the 4/18/2010 Masterworks Scholarship Benefit Concert at SUNY Fredonia, in King Concert Hall.\r
+\r
+Under the direction of Dr. David Rudge, the concert began with Brahms masterful "Variations on a Theme by Haydn", and concluded with Beethoven's groundbreaking Symphony No. 9.\r
+\r
+Features acclaimed soloists Barbara Kilduff, soprano; Laurie Tramuta, alto; Alan Schneider, tenor; Erik Angerhofer, baritone with the Masterworks Chorus, Dr. Gwen Detwiler, director."""^^xsd:string ;
+    ns1:duration "PT20M52S"^^xsd:duration ;
+    ns1:keywords "Alan Schneider"^^xsd:string,
+        "Barbara Killduff"^^xsd:string,
+        "Beethoven 9"^^xsd:string,
+        "College Symphony Orchestra"^^xsd:string,
+        "David Rudge"^^xsd:string,
+        "Erik Angerhofer"^^xsd:string,
+        "Gwen Detwiler"^^xsd:string,
+        "King Concert Hall"^^xsd:string,
+        "Laurie Tramuta"^^xsd:string,
+        "Rockefeller Arts Center"^^xsd:string,
+        "SUNY Fredonia"^^xsd:string,
+        "masterwork"^^xsd:string,
+        "masterworks chrous"^^xsd:string,
+        "music"^^xsd:string ;
+    ns1:name "Symphony No. 9, Op. 125, \"Choral\"  Mvt. IV (Beethoven)"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/sd1Nuu34-3o/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+
+<https://www.youtube.com/watch?v=uTdQECUTDu8> ns1:datePublished "2011-12-27"^^xsd:date ;
+    ns1:description "La Sinfonía n.º 9 Op. 125 en re menor es la última sinfonía completa del compositor alemán Ludwig van Beethoven. Es una de las obras más trascendentales, importantes y popular en toda la música clásica, y también de toda la música y del arte. Su último movimiento es un final coral sorprendentemente inusual en su época que se ha convertido en símbolo de la libertad. Precisamente, una adaptación de la sinfonía, realizada por Herbert von Karajan es, desde 1972, el himno de la Unión Europea (UE).1 También destaca por ser la única composición musical de la historia declarada patrimonio de la humanidad por la Unesco."^^xsd:string ;
+    ns1:duration "PT11M27S"^^xsd:duration ;
+    ns1:keywords "125"^^xsd:string,
+        "Bach"^^xsd:string,
+        "Classical"^^xsd:string,
+        "Concerto"^^xsd:string,
+        "Ludwig Van Beethoven"^^xsd:string,
+        "Molto"^^xsd:string,
+        "Nº"^^xsd:string,
+        "Op."^^xsd:string,
+        "Orchestra"^^xsd:string,
+        "Sinfonía"^^xsd:string,
+        "Symphony"^^xsd:string,
+        "Vivace"^^xsd:string,
+        "clasica"^^xsd:string,
+        "classische"^^xsd:string,
+        "music"^^xsd:string,
+        "musica"^^xsd:string,
+        "musik"^^xsd:string ;
+    ns1:name "Ludwig van Beethoven - Molto Vivace (Sinfonía Nº9, Op. 125)"^^xsd:string ;
+    ns1:thumbnailUrl <https://i.ytimg.com/vi/uTdQECUTDu8/default.jpg> ;
+    ns2:additionalInfo <https://en.wikipedia.org/wiki/Classical_music>,
+        <https://en.wikipedia.org/wiki/Music> ;
+    ns2:inCategory "Music"^^xsd:string .
+

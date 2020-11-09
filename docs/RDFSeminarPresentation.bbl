@@ -1,0 +1,72 @@
+\begin{thebibliography}{10}
+
+\bibitem{WhatisW3C}
+About w3c.
+
+\bibitem{W3C_vocab}
+Vocabularies.
+\newblock From a W3C site about Semantic Web standards.
+
+\bibitem{rdfPress}
+World wide web consortium publishes public draft of resource description
+  framework (rdf), Oct. 1997.
+
+\bibitem{URIStandard}
+{\sc Berners-Lee, T., Fielding, R., and Masinter, L.}
+\newblock Uniform resource identifier (uri): Generic syntax.
+\newblock Request for Comments: 3986.
+
+\bibitem{RDFS}
+{\sc Brickley, D., Guha, R.~V., and McBride, B.}
+\newblock Rdf schema 1.1.
+\newblock {\em W3C recommendation 25\/} (2014), 2004--2014.
+
+\bibitem{sparql_overview}
+{\sc Consortium, W. W.~W., et~al.}
+\newblock Sparql 1.1 overview.
+
+\bibitem{ttl}
+{\sc Consortium, W. W.~W., et~al.}
+\newblock Rdf 1.1 turtle: terse rdf triple language.
+\newblock {\em W3C recommendation 25\/} (Feb. 2014), 2004--2014.
+
+\bibitem{RDFConcepts}
+{\sc Cyganiak, R., Wood, D., Lanthaler, M., Klyne, G., and Carroll, J. B.~M.}
+\newblock Rdf 1.1 concepts and abstract syntax.
+\newblock Website, Feb. 2014.
+
+\bibitem{w3cssn}
+{\sc Haller, A., Janowicz, K., Cox, S., Phuoc, D., Taylor, K.,
+  Lefran{\c{c}}ois, M., Atkinson, R., Garc{\i}a-Castro, R., Lieberman, J., and
+  Stadler, C.}
+\newblock Semantic sensor network ontology.
+\newblock {\em World Wide Web Consortium. Retrieved from https://www. w3.
+  org/TR/vocab-ssn\/} (2017).
+
+\bibitem{SPARQL_query}
+{\sc Harris, S., Seaborne, A., and Prud’hommeaux, E.}
+\newblock Sparql 1.1 query language.
+\newblock {\em W3C recommendation 21}, 10 (2013).
+
+\bibitem{rdfSemantics}
+{\sc Hayes, P.~J., and Patel-Schneider, P.~F.}
+\newblock Rdf 1.1 semantics.
+\newblock {\em W3C Recommendation\/} (2014).
+
+\bibitem{OWL_primer}
+{\sc Hitzler, P., Krötzsch, M., Parsia, B., Patel-Schneider, P.~F., and
+  Rudolph, S.}
+\newblock Owl 2 web ontology language primer (second edition).
+\newblock Website, Dec. 2012.
+\newblock W3C Recommendation.
+
+\bibitem{RDF11Primer}
+{\sc Schreiber, G., Raimond, Y., Manola, F., Miller, E., and McBride, B.}
+\newblock Rdf 1.1 primer.
+\newblock Website, June 2014.
+
+\bibitem{pics}
+{\sc W3C}.
+\newblock Platform for internet content selection (pics).
+
+\end{thebibliography}

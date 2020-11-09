@@ -1,0 +1,20 @@
+-I could add links to external datasets later by working with the RDF data produced by using only "what I have" in the wiki
+-I will need some way to distinguish different types of pages - for example, I won't really want the manually-curated work lists for composers that exist.
+	-Can match the FTP:imslppage template, possibly insert as a comment when I dump pages
+-I should exercise the parser with pages that have all of the different possible fields for each thing I'm parsing before attempting a full-scale run
+
+-It looks like the best way to deal with things I can't really parse (accurately enough) is to put them in a "text" version of whatever schema.org thing I would have used. For example, the "first performance" part of the general information section does not have enough internal structure to reliably parse (at this point).  The schema.org vocabulary says the "firstPerformance" property of "musicComposition" should have type "Event." To make it a proper event, we would need to define a triple for the event since it's distinct from the composition. That means I need some unique name for it that can be dereferenced for more info.  The wiki markup doesn't have the necessary structure to link to a specific row in the general information table, so I could either abandon the requirement that all URIs are dereferencable for more info, break the rules defined by the schema, or extend the schema to deal with these cases.  I decided to go with the last option because it allows me to keep everything consistent with the definitions in use, avoid throwing away useful data, and provides an easy mechanism for future improvements.  For example, if someone came up with a good way to parse those free-text fields, one could search the graph for things with the new type I will create (something like "firstPerformance_text")
+    -Consequently, I will need to define my extensions in such a way that a machine could infer how they are related to the schema.org vocabulary
+
+-To incorporate YouTube, I could generate a triple of the form <pageURI>,(something for a recording of a work),<URI that when dereferenced, returns youtube search results>)
+AIzaSyBgs-Wx1YKxMDTst6V03pCbvWlzPgxmIG8
+-Maybe could use part of the string for the youtube API call as an identifier?  
+
+-Test idea: 1000 random pages -> convert to RDF. Then, look at each of the different parts. See where things "look funny".
+	-Add something to notify me when the parsing program can't parse something.
+	-Maybe something that keeps track of every string it reads and what it does with it? That might be too much.
+
+-Need to formally define my own schema and include rules for inference
+-Is there an automated way to see what a machine could infer from my data? This would be interesting to show in the paper.
+    -yes, it appears an OWL reasoner like pellet might work
+-should add extra triples so we can do things like infer types.

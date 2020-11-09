@@ -1,0 +1,54 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://schemaExtensions/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29#1.%20O%20Darkest%20Woe%20%28O%20Traurigkeit%29> a ns1:MusicComposition ;
+    ns1:name "1. O Darkest Woe (O Traurigkeit)"^^ns1:Text .
+
+<http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29#2.%20Blessed%20Jesus%2C%20at%20Thy%20Word%20%28Liebster%20Jesu%2C%20wir%20sind%20hier%29> a ns1:MusicComposition ;
+    ns1:name "2. Blessed Jesus, at Thy Word (Liebster Jesu, wir sind hier)"^^ns1:Text .
+
+<http://imslp.org/wiki/:User:David_Campbell> a ns1:Person .
+
+<https://imslp.org/wiki/Special:ImagefromIndex/405776> a ns1:MediaObject ;
+    ns1:contentSize "4.15MB"^^ns1:Text ;
+    ns1:contentURL <https://imslp.org/wiki/Special:ImagefromIndex/405776> ;
+    ns1:encodesCreativeWork <http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29> ;
+    ns1:encodingFormat "PDF"^^ns1:Text ;
+    ns1:license <http://imslp.org/wiki/:IMSLP:Public_Domain> ;
+    ns1:name " Complete Score"^^ns1:Text ;
+    ns1:uploadDate "2016-01-04"^^ns1:Date ;
+    ns2:numberOfPages "8 pp."^^ns1:Number ;
+    ns2:publicationInfo "Minneapolis: Augsburg Publishing House, No.11-812, 1963."^^ns1:Text ;
+    ns2:uploadedBy <http://imslp.org/wiki/:User:David_Campbell> .
+
+<http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29> a ns1:MusicComposition ;
+    ns1:alternateName """
+"""^^ns1:Text ;
+    ns1:category <http://imslp.org/wiki/:Category:Chorale_preludes>,
+        <http://imslp.org/wiki/:Category:Early_20th_century>,
+        <http://imslp.org/wiki/:Category:Early_20th_century_style>,
+        <http://imslp.org/wiki/:Category:Files_PD_in_the_EU_due_to_RoST>,
+        <http://imslp.org/wiki/:Category:For_1_player>,
+        <http://imslp.org/wiki/:Category:For_organ>,
+        <http://imslp.org/wiki/:Category:Landahl%2C_Carl_W.>,
+        <http://imslp.org/wiki/:Category:Scores>,
+        <http://imslp.org/wiki/:Category:Scores_featuring_the_organ>,
+        <http://imslp.org/wiki/:Category:Work-PD-US-notrenewed> ;
+    ns1:composer <http://imslp.org/wiki/:Category:Landahl%2C_Carl_W.> ;
+    ns1:datePublished "1963"^^ns1:Date ;
+    ns1:genre <http://imslp.org/wiki/:Category:Early_20th_century_style> ;
+    ns1:includedComposition <http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29#1.%20O%20Darkest%20Woe%20%28O%20Traurigkeit%29>,
+        <http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29#2.%20Blessed%20Jesus%2C%20at%20Thy%20Word%20%28Liebster%20Jesu%2C%20wir%20sind%20hier%29> ;
+    ns1:name """2 Chorale Preludes
+"""^^ns1:Text ;
+    ns1:url <http://imslp.org/wiki/2_Chorale_Preludes_%28Landahl%2C_Carl_W.%29> ;
+    ns2:writtenForInstruments "organ"^^ns1:Text ;
+    ns2:youtubeAPIRequestURL <https://www.googleapis.com/youtube/v3/search?q=2+Chorale+Preludes+%28Landahl%2C+Carl+W.%29&part=id%2Csnippet&maxResults=10&type=video&key=AIzaSyBgs-Wx1YKxMDTst6V03pCbvWlzPgxmIG8&alt=json> ;
+    ns2:youtubeSearchURL <https://www.youtube.com/results?search_query=2+Chorale+Preludes+%28Landahl%2C+Carl+W.%29> .
+
+<http://imslp.org/wiki/:Category:Landahl%2C_Carl_W.> a ns1:Person .
+

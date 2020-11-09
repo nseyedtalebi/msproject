@@ -1,0 +1,207 @@
+\begin{thebibliography}{10}
+
+\bibitem{dateparser_docs}
+{\em dateparser – python parser for human readable dates}.
+
+\bibitem{sorg_docs}
+{\em Documentation}.
+\newblock Schema.org documentation.
+
+\bibitem{pyGenerators}
+{\em Generators}.
+\newblock From the official Python wiki.
+
+\bibitem{mwiki_wpedia}
+Mediawiki.
+\newblock Wikipedia.
+\newblock Wikipedia entry for MediaWiki.
+
+\bibitem{mwclientDocs}
+{\em mwclient Documentation}.
+
+\bibitem{rdflibDocs}
+{\em rdflib 4.2.2 documentation}.
+
+\bibitem{W3C_vocab}
+Vocabularies.
+\newblock From a W3C site about Semantic Web standards.
+
+\bibitem{anaconda}
+Continuum Analytics.
+\newblock Anaconda.
+
+\bibitem{URIStandard}
+T~Berners-Lee, R.~Fielding, and L.~Masinter.
+\newblock Uniform resource identifier (uri): Generic syntax.
+\newblock Request for Comments: 3986.
+
+\bibitem{TBLLinkedData}
+Tim Berners-Lee.
+\newblock Linked data.
+\newblock Website, 2009.
+
+\bibitem{xmlstd}
+Tim Bray, Jean Paoli, C.~M. Sperberg-McQueen, Eve Maler, and François Yergeau.
+\newblock Extensible markup language (xml) 1.0 (fifth edition).
+\newblock November 2008.
+
+\bibitem{RDFS}
+Dan Brickley, Ramanathan~V Guha, and Brian McBride.
+\newblock Rdf schema 1.1.
+\newblock {\em W3C recommendation}, 25:2004--2014, 2014.
+
+\bibitem{arrng_def}
+Encyclopedia Britannica.
+\newblock Arrangement.
+
+\bibitem{lnk_data_mus_rsch}
+Chris Cannam, Mark Sandler, Michael~O. Jewell, Christophe Rhodes, and Mark
+  d’Inverno.
+\newblock Linked data and you: Bringing music research softwareinto the
+  semantic web.
+\newblock {\em Journal of New Music Research}, 39(4):315--325, 2010.
+
+\bibitem{unicode_std}
+The~Unicode Consortium.
+\newblock {\em The Unicode Standard Version 10.0 - Core Specification}, June
+  2017.
+
+\bibitem{sparql_overview}
+World Wide~Web Consortium et~al.
+\newblock Sparql 1.1 overview.
+\newblock 2013.
+
+\bibitem{ttl}
+World Wide~Web Consortium et~al.
+\newblock Rdf 1.1 turtle: terse rdf triple language.
+\newblock February 2014.
+
+\bibitem{mwgrammar}
+Brian~W Curry, Andrew Trotman, and Michael Albert.
+\newblock Extricating meaning from wikimedia article archives.
+\newblock {\em ADCS 2010}, page~1, 2010.
+
+\bibitem{RDFConcepts}
+Richard Cyganiak, David Wood, Markus Lanthaler, Graham Klyne, and J.~B.~M.
+  Carroll.
+\newblock Rdf 1.1 concepts and abstract syntax.
+\newblock Website, February 2014.
+
+\bibitem{IRIStandard}
+M.~Duerst and M.~Suignard.
+\newblock Internationalized resource identifiers (iris), 2005.
+\newblock Request for Comments: 3987.
+
+\bibitem{vis_bkgnd}
+Tom Eblen.
+\newblock Uk's digital backdrops put it in the theatrical forefront.
+\newblock {\em Lexington Herald-Leader}, 2011.
+
+\bibitem{http_rfc}
+R.~Fielding, J.~Gettys, J.~Mogul, H.~Frystyk, L.~Masinter, P.~Leach, and
+  T.~Berners-Lee.
+\newblock Hypertext transfer protocol -- http/1.1.
+\newblock 1999.
+\newblock RFC2616.
+
+\bibitem{youtube}
+Google.
+\newblock {\em API Reference}.
+
+\bibitem{libGuideIMSLP}
+Edward~W Guo.
+\newblock A librarian's guide to imslp.
+\newblock {\em Fontes Artis Musicae}, pages 267--274, 2014.
+
+\bibitem{SPARQL_query}
+Steve Harris, Andy Seaborne, and Eric Prud’hommeaux.
+\newblock Sparql 1.1 query language.
+\newblock {\em W3C recommendation}, 21(10), 2013.
+
+\bibitem{rdfa_primer}
+Ivan Herman, Ben Adida, Manu Sporny, and Mark Birbeck.
+\newblock Rdfa 1.1 primer—third edition, w3c note.
+\newblock 2015.
+
+\bibitem{OWL_primer}
+Pascal Hitzler, Markus Krötzsch, Bijan Parsia, Peter~F. Patel-Schneider, and
+  Sebastian Rudolph.
+\newblock Owl 2 web ontology language primer (second edition), December 2012.
+\newblock W3C Recommendation.
+
+\bibitem{imslpOrganist}
+Benjamin Kolodziej.
+\newblock The international music score library project as a practical
+  resources for service playing.
+\newblock {\em The American Organist}, page~52, 2015.
+
+\bibitem{mwpDocs}
+Ben Kurtovic.
+\newblock {\em mwparserfromhell Documentation}.
+
+\bibitem{dbpedia}
+Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas,
+  Pablo~N Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick Van~Kleef,
+  S{\"o}ren Auer, et~al.
+\newblock Dbpedia--a large-scale, multilingual knowledge base extracted from
+  wikipedia.
+\newblock {\em Semantic Web}, 6(2):167--195, 2015.
+
+\bibitem{Cisco_zetta}
+Cisco~Visual Networking.
+\newblock The zettabyte era--trends and analysis.
+\newblock {\em Cisco white paper}, 2017.
+
+\bibitem{mcrdata}
+Chaals~McCathie Nevile and Dan Brickley.
+\newblock Html microdata.
+\newblock 2017.
+
+\bibitem{swToday}
+Rivindu Perera, Parma Nand, Boris Bacic, Wen-Hsin Yang, Kazuhiro Seki, and
+  Radek Burget.
+\newblock Semantic web today: From oil rigs to panama papers.
+\newblock {\em arXiv preprint arXiv:1711.01518}, 2017.
+
+\bibitem{raimond2007music}
+Yves Raimond, Samer~A Abdallah, Mark~B Sandler, and Frederick Giasson.
+\newblock The music ontology.
+\newblock In {\em ISMIR}, volume 422. Vienna, Austria, 2007.
+
+\bibitem{RDF11Primer}
+Guus Schreiber, Yves Raimond, Frank Manola, Eric Miller, and Brian McBride.
+\newblock Rdf 1.1 primer.
+\newblock Website, June 2014.
+
+\bibitem{mysterySchubert}
+Kimmy Szeto.
+\newblock The mystery of the schubert song: the linked data promise.
+\newblock {\em Notes}, 74(1):9--23, 2017.
+
+\bibitem{W3CDataAct}
+W3C.
+\newblock W3c data activity building the web of data.
+\newblock Website.
+
+\bibitem{W3C_sw}
+W3C.
+\newblock Semantic web, 2015.
+
+\bibitem{mwManual}
+WikiMedia Project.
+\newblock {\em MediaWiki Manual}.
+
+\bibitem{utf8_rfc}
+F.~Yergeau.
+\newblock Utf-8, a transformation format of iso 10646.
+\newblock November 2003.
+\newblock RFC3629.
+
+\bibitem{SemanticWebNLP}
+Ilya Zaihrayeu, Lei Sun, Fausto Giunchiglia, Wei Pan, Qi~Ju, Mingmin Chi, and
+  Xuanjing Huang.
+\newblock From web directories to ontologies: Natural language processing
+  challenges.
+\newblock In {\em The Semantic Web}, pages 623--636. Springer, 2007.
+
+\end{thebibliography}
